@@ -78,32 +78,13 @@ class TeacherTableViewController: UITableViewController {
         
         tableView.reloadData()
     }
-    
-//    func addButtonItem() -> UIBarButtonItem {
-//        let addButton = UIBarButtonItem(title: "Add", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("addQuestion"))
-//        
-//        return addButton
-//    }
-//    
-//    func addQuestion() {
-//
-//        let storyboard:UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-//        let aqvc: AddQuestionViewController = storyboard.instantiateViewControllerWithIdentifier("AddQuestionViewController") as! AddQuestionViewController
-//
-//        self.presentViewController(aqvc, animated: true) { () -> Void in
-//            
-//            
-//        }
-//        
-//    }
-    
+
     func homeButtonItem() -> UIBarButtonItem {
         
         let homeButton:UIBarButtonItem = UIBarButtonItem(title: "Home", style: UIBarButtonItemStyle.Plain, target: self, action: Selector("goToHome"))
         
         return homeButton
-        
-        
+
     }
     
     func goToHome() {
@@ -189,6 +170,8 @@ class TeacherTableViewController: UITableViewController {
                 if result.count > 0 {
                     
                     context.deleteObject(result[0] as! NSManagedObject)
+                    
+                    try context.save()
                     
                     questionsArray.removeAtIndex(questionsArray.indexOf(deletingQuestion)!)
                     allQuestions.removeValueForKey(deletingQuestion)
