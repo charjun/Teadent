@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="8166.2" systemVersion="14F19a" minimumToolsVersion="Automatic">
+    <entity name="StudentDetails" syncable="YES">
+        <attribute name="correctQuestions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="level" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="numberOfAttempts" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="studentName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="totalPoints" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="wrongQuestions" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="yourScore" optional="YES" attributeType="Integer 32" defaultValueString="0.0" syncable="YES"/>
+    </entity>
+    <entity name="Teacher" syncable="YES">
+        <attribute name="answer" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="answerType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="duration" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="points" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="question" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Teacher" positionX="-63" positionY="-18" width="128" height="118"/>
+        <element name="StudentDetails" positionX="252" positionY="-6" width="128" height="163"/>
+    </elements>
+</model>

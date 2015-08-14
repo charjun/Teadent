@@ -1,0 +1,442 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DC6283051B7AF9FA0049F02F /* backButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283041B7AF9FA0049F02F /* backButton.png */; };
+		DC6283071B7B25E00049F02F /* StudentInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6283061B7B25E00049F02F /* StudentInfoViewController.swift */; };
+		DC6283091B7BB4C40049F02F /* QuizViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC6283081B7BB4C40049F02F /* QuizViewController.swift */; };
+		DC6283481B7C178C0049F02F /* clap1.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283341B7C178C0049F02F /* clap1.png */; };
+		DC6283491B7C178C0049F02F /* clap2.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283351B7C178C0049F02F /* clap2.png */; };
+		DC62834A1B7C178C0049F02F /* clap3.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283361B7C178C0049F02F /* clap3.png */; };
+		DC62834B1B7C178C0049F02F /* clap4.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283371B7C178C0049F02F /* clap4.png */; };
+		DC62834C1B7C178C0049F02F /* clap5.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283381B7C178C0049F02F /* clap5.png */; };
+		DC62834D1B7C178C0049F02F /* clap6.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283391B7C178C0049F02F /* clap6.png */; };
+		DC62834E1B7C178C0049F02F /* clap7.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833A1B7C178C0049F02F /* clap7.png */; };
+		DC62834F1B7C178C0049F02F /* clap8.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833B1B7C178C0049F02F /* clap8.png */; };
+		DC6283501B7C178C0049F02F /* clap9.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833C1B7C178C0049F02F /* clap9.png */; };
+		DC6283511B7C178C0049F02F /* clap10.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833D1B7C178C0049F02F /* clap10.png */; };
+		DC6283521B7C178C0049F02F /* clap11.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833E1B7C178C0049F02F /* clap11.png */; };
+		DC6283531B7C178C0049F02F /* clap12.png in Resources */ = {isa = PBXBuildFile; fileRef = DC62833F1B7C178C0049F02F /* clap12.png */; };
+		DC6283541B7C178C0049F02F /* clap13.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283401B7C178C0049F02F /* clap13.png */; };
+		DC6283551B7C178C0049F02F /* clap14.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283411B7C178C0049F02F /* clap14.png */; };
+		DC6283561B7C178C0049F02F /* clap15.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283421B7C178C0049F02F /* clap15.png */; };
+		DC6283571B7C178C0049F02F /* clap16.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283431B7C178C0049F02F /* clap16.png */; };
+		DC6283581B7C178C0049F02F /* clap17.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283441B7C178C0049F02F /* clap17.png */; };
+		DC6283591B7C178C0049F02F /* clap18.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283451B7C178C0049F02F /* clap18.png */; };
+		DC62835A1B7C178C0049F02F /* clap19.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283461B7C178C0049F02F /* clap19.png */; };
+		DC62835B1B7C178C0049F02F /* clap20.png in Resources */ = {isa = PBXBuildFile; fileRef = DC6283471B7C178C0049F02F /* clap20.png */; };
+		DC62835D1B7C5DAE0049F02F /* ResultsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62835C1B7C5DAE0049F02F /* ResultsTableViewController.swift */; };
+		DC62835F1B7C69430049F02F /* ResultsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC62835E1B7C69430049F02F /* ResultsDetailViewController.swift */; };
+		DC7407FA1B7942A700063B6B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7407F91B7942A700063B6B /* AppDelegate.swift */; };
+		DC7407FC1B7942A700063B6B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7407FB1B7942A700063B6B /* ViewController.swift */; };
+		DC7407FF1B7942A700063B6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7407FD1B7942A700063B6B /* Main.storyboard */; };
+		DC7408021B7942A700063B6B /* Teadent.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DC7408001B7942A700063B6B /* Teadent.xcdatamodeld */; };
+		DC7408041B7942A700063B6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC7408031B7942A700063B6B /* Assets.xcassets */; };
+		DC7408071B7942A700063B6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC7408051B7942A700063B6B /* LaunchScreen.storyboard */; };
+		DC74080F1B79446F00063B6B /* InitialBackground.jpg in Resources */ = {isa = PBXBuildFile; fileRef = DC74080E1B79446F00063B6B /* InitialBackground.jpg */; };
+		DC7408111B7949C900063B6B /* TeacherTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7408101B7949C900063B6B /* TeacherTableViewController.swift */; };
+		DC7408131B79635200063B6B /* AddQuestionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7408121B79635200063B6B /* AddQuestionViewController.swift */; };
+		DC7408171B79959100063B6B /* editButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7408161B79959100063B6B /* editButton.png */; };
+		DC7408191B79AB8500063B6B /* submitButton.png in Resources */ = {isa = PBXBuildFile; fileRef = DC7408181B79AB8500063B6B /* submitButton.png */; };
+		DC74081F1B79CA8700063B6B /* sucess.png in Resources */ = {isa = PBXBuildFile; fileRef = DC74081E1B79CA8700063B6B /* sucess.png */; };
+		DC7408211B79E72500063B6B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC7408201B79E72500063B6B /* DetailViewController.swift */; };
+		DCEC694E1B7D50CB0054FA37 /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = DCEC694D1B7D50CB0054FA37 /* welcome.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		DC6283041B7AF9FA0049F02F /* backButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backButton.png; sourceTree = "<group>"; };
+		DC6283061B7B25E00049F02F /* StudentInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StudentInfoViewController.swift; sourceTree = "<group>"; };
+		DC6283081B7BB4C40049F02F /* QuizViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuizViewController.swift; sourceTree = "<group>"; };
+		DC6283341B7C178C0049F02F /* clap1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap1.png; sourceTree = "<group>"; };
+		DC6283351B7C178C0049F02F /* clap2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap2.png; sourceTree = "<group>"; };
+		DC6283361B7C178C0049F02F /* clap3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap3.png; sourceTree = "<group>"; };
+		DC6283371B7C178C0049F02F /* clap4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap4.png; sourceTree = "<group>"; };
+		DC6283381B7C178C0049F02F /* clap5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap5.png; sourceTree = "<group>"; };
+		DC6283391B7C178C0049F02F /* clap6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap6.png; sourceTree = "<group>"; };
+		DC62833A1B7C178C0049F02F /* clap7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap7.png; sourceTree = "<group>"; };
+		DC62833B1B7C178C0049F02F /* clap8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap8.png; sourceTree = "<group>"; };
+		DC62833C1B7C178C0049F02F /* clap9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap9.png; sourceTree = "<group>"; };
+		DC62833D1B7C178C0049F02F /* clap10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap10.png; sourceTree = "<group>"; };
+		DC62833E1B7C178C0049F02F /* clap11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap11.png; sourceTree = "<group>"; };
+		DC62833F1B7C178C0049F02F /* clap12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap12.png; sourceTree = "<group>"; };
+		DC6283401B7C178C0049F02F /* clap13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap13.png; sourceTree = "<group>"; };
+		DC6283411B7C178C0049F02F /* clap14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap14.png; sourceTree = "<group>"; };
+		DC6283421B7C178C0049F02F /* clap15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap15.png; sourceTree = "<group>"; };
+		DC6283431B7C178C0049F02F /* clap16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap16.png; sourceTree = "<group>"; };
+		DC6283441B7C178C0049F02F /* clap17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap17.png; sourceTree = "<group>"; };
+		DC6283451B7C178C0049F02F /* clap18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap18.png; sourceTree = "<group>"; };
+		DC6283461B7C178C0049F02F /* clap19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap19.png; sourceTree = "<group>"; };
+		DC6283471B7C178C0049F02F /* clap20.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clap20.png; sourceTree = "<group>"; };
+		DC62835C1B7C5DAE0049F02F /* ResultsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsTableViewController.swift; sourceTree = "<group>"; };
+		DC62835E1B7C69430049F02F /* ResultsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultsDetailViewController.swift; sourceTree = "<group>"; };
+		DC7407F61B7942A700063B6B /* Teadent.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Teadent.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DC7407F91B7942A700063B6B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DC7407FB1B7942A700063B6B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DC7407FE1B7942A700063B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DC7408011B7942A700063B6B /* Teadent.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Teadent.xcdatamodel; sourceTree = "<group>"; };
+		DC7408031B7942A700063B6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DC7408061B7942A700063B6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DC7408081B7942A700063B6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC74080E1B79446F00063B6B /* InitialBackground.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = InitialBackground.jpg; sourceTree = "<group>"; };
+		DC7408101B7949C900063B6B /* TeacherTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TeacherTableViewController.swift; sourceTree = "<group>"; };
+		DC7408121B79635200063B6B /* AddQuestionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddQuestionViewController.swift; sourceTree = "<group>"; };
+		DC7408161B79959100063B6B /* editButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = editButton.png; sourceTree = "<group>"; };
+		DC7408181B79AB8500063B6B /* submitButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = submitButton.png; sourceTree = "<group>"; };
+		DC74081E1B79CA8700063B6B /* sucess.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sucess.png; sourceTree = "<group>"; };
+		DC7408201B79E72500063B6B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		DCEC694D1B7D50CB0054FA37 /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DC7407F31B7942A700063B6B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DC7407ED1B7942A700063B6B = {
+			isa = PBXGroup;
+			children = (
+				DC7407F81B7942A700063B6B /* Teadent */,
+				DC7407F71B7942A700063B6B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DC7407F71B7942A700063B6B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DC7407F61B7942A700063B6B /* Teadent.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DC7407F81B7942A700063B6B /* Teadent */ = {
+			isa = PBXGroup;
+			children = (
+				DC6283341B7C178C0049F02F /* clap1.png */,
+				DC6283351B7C178C0049F02F /* clap2.png */,
+				DC6283361B7C178C0049F02F /* clap3.png */,
+				DC6283371B7C178C0049F02F /* clap4.png */,
+				DC6283381B7C178C0049F02F /* clap5.png */,
+				DC6283391B7C178C0049F02F /* clap6.png */,
+				DC62833A1B7C178C0049F02F /* clap7.png */,
+				DC62833B1B7C178C0049F02F /* clap8.png */,
+				DC62833C1B7C178C0049F02F /* clap9.png */,
+				DC62833D1B7C178C0049F02F /* clap10.png */,
+				DC62833E1B7C178C0049F02F /* clap11.png */,
+				DC62833F1B7C178C0049F02F /* clap12.png */,
+				DC6283401B7C178C0049F02F /* clap13.png */,
+				DC6283411B7C178C0049F02F /* clap14.png */,
+				DC6283421B7C178C0049F02F /* clap15.png */,
+				DC6283431B7C178C0049F02F /* clap16.png */,
+				DC6283441B7C178C0049F02F /* clap17.png */,
+				DC6283451B7C178C0049F02F /* clap18.png */,
+				DC6283461B7C178C0049F02F /* clap19.png */,
+				DC6283471B7C178C0049F02F /* clap20.png */,
+				DCEC694D1B7D50CB0054FA37 /* welcome.png */,
+				DC74080E1B79446F00063B6B /* InitialBackground.jpg */,
+				DC74081E1B79CA8700063B6B /* sucess.png */,
+				DC6283041B7AF9FA0049F02F /* backButton.png */,
+				DC7408161B79959100063B6B /* editButton.png */,
+				DC7408181B79AB8500063B6B /* submitButton.png */,
+				DC7407F91B7942A700063B6B /* AppDelegate.swift */,
+				DC7407FB1B7942A700063B6B /* ViewController.swift */,
+				DC7407FD1B7942A700063B6B /* Main.storyboard */,
+				DC62835C1B7C5DAE0049F02F /* ResultsTableViewController.swift */,
+				DC62835E1B7C69430049F02F /* ResultsDetailViewController.swift */,
+				DC6283081B7BB4C40049F02F /* QuizViewController.swift */,
+				DC6283061B7B25E00049F02F /* StudentInfoViewController.swift */,
+				DC7408201B79E72500063B6B /* DetailViewController.swift */,
+				DC7408101B7949C900063B6B /* TeacherTableViewController.swift */,
+				DC7408121B79635200063B6B /* AddQuestionViewController.swift */,
+				DC7408031B7942A700063B6B /* Assets.xcassets */,
+				DC7408051B7942A700063B6B /* LaunchScreen.storyboard */,
+				DC7408081B7942A700063B6B /* Info.plist */,
+				DC7408001B7942A700063B6B /* Teadent.xcdatamodeld */,
+			);
+			path = Teadent;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DC7407F51B7942A700063B6B /* Teadent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DC74080B1B7942A700063B6B /* Build configuration list for PBXNativeTarget "Teadent" */;
+			buildPhases = (
+				DC7407F21B7942A700063B6B /* Sources */,
+				DC7407F31B7942A700063B6B /* Frameworks */,
+				DC7407F41B7942A700063B6B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Teadent;
+			productName = Teadent;
+			productReference = DC7407F61B7942A700063B6B /* Teadent.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DC7407EE1B7942A700063B6B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Arjun Reddy";
+				TargetAttributes = {
+					DC7407F51B7942A700063B6B = {
+						CreatedOnToolsVersion = 7.0;
+					};
+				};
+			};
+			buildConfigurationList = DC7407F11B7942A700063B6B /* Build configuration list for PBXProject "Teadent" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DC7407ED1B7942A700063B6B;
+			productRefGroup = DC7407F71B7942A700063B6B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DC7407F51B7942A700063B6B /* Teadent */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DC7407F41B7942A700063B6B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC62834E1B7C178C0049F02F /* clap7.png in Resources */,
+				DC62834B1B7C178C0049F02F /* clap4.png in Resources */,
+				DC62834C1B7C178C0049F02F /* clap5.png in Resources */,
+				DC62834D1B7C178C0049F02F /* clap6.png in Resources */,
+				DC6283531B7C178C0049F02F /* clap12.png in Resources */,
+				DC6283521B7C178C0049F02F /* clap11.png in Resources */,
+				DCEC694E1B7D50CB0054FA37 /* welcome.png in Resources */,
+				DC62835A1B7C178C0049F02F /* clap19.png in Resources */,
+				DC6283541B7C178C0049F02F /* clap13.png in Resources */,
+				DC62834F1B7C178C0049F02F /* clap8.png in Resources */,
+				DC6283561B7C178C0049F02F /* clap15.png in Resources */,
+				DC6283581B7C178C0049F02F /* clap17.png in Resources */,
+				DC62835B1B7C178C0049F02F /* clap20.png in Resources */,
+				DC6283591B7C178C0049F02F /* clap18.png in Resources */,
+				DC6283491B7C178C0049F02F /* clap2.png in Resources */,
+				DC6283511B7C178C0049F02F /* clap10.png in Resources */,
+				DC6283481B7C178C0049F02F /* clap1.png in Resources */,
+				DC6283571B7C178C0049F02F /* clap16.png in Resources */,
+				DC62834A1B7C178C0049F02F /* clap3.png in Resources */,
+				DC7408071B7942A700063B6B /* LaunchScreen.storyboard in Resources */,
+				DC6283501B7C178C0049F02F /* clap9.png in Resources */,
+				DC6283051B7AF9FA0049F02F /* backButton.png in Resources */,
+				DC7408041B7942A700063B6B /* Assets.xcassets in Resources */,
+				DC6283551B7C178C0049F02F /* clap14.png in Resources */,
+				DC7408171B79959100063B6B /* editButton.png in Resources */,
+				DC7408191B79AB8500063B6B /* submitButton.png in Resources */,
+				DC7407FF1B7942A700063B6B /* Main.storyboard in Resources */,
+				DC74080F1B79446F00063B6B /* InitialBackground.jpg in Resources */,
+				DC74081F1B79CA8700063B6B /* sucess.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DC7407F21B7942A700063B6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DC7408111B7949C900063B6B /* TeacherTableViewController.swift in Sources */,
+				DC7408021B7942A700063B6B /* Teadent.xcdatamodeld in Sources */,
+				DC7408131B79635200063B6B /* AddQuestionViewController.swift in Sources */,
+				DC6283091B7BB4C40049F02F /* QuizViewController.swift in Sources */,
+				DC62835F1B7C69430049F02F /* ResultsDetailViewController.swift in Sources */,
+				DC7408211B79E72500063B6B /* DetailViewController.swift in Sources */,
+				DC7407FC1B7942A700063B6B /* ViewController.swift in Sources */,
+				DC62835D1B7C5DAE0049F02F /* ResultsTableViewController.swift in Sources */,
+				DC6283071B7B25E00049F02F /* StudentInfoViewController.swift in Sources */,
+				DC7407FA1B7942A700063B6B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		DC7407FD1B7942A700063B6B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7407FE1B7942A700063B6B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DC7408051B7942A700063B6B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DC7408061B7942A700063B6B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DC7408091B7942A700063B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DC74080A1B7942A700063B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DC74080C1B7942A700063B6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teadent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingala.Teadent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DC74080D1B7942A700063B6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Teadent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.lingala.Teadent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DC7407F11B7942A700063B6B /* Build configuration list for PBXProject "Teadent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC7408091B7942A700063B6B /* Debug */,
+				DC74080A1B7942A700063B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DC74080B1B7942A700063B6B /* Build configuration list for PBXNativeTarget "Teadent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DC74080C1B7942A700063B6B /* Debug */,
+				DC74080D1B7942A700063B6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DC7408001B7942A700063B6B /* Teadent.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DC7408011B7942A700063B6B /* Teadent.xcdatamodel */,
+			);
+			currentVersion = DC7408011B7942A700063B6B /* Teadent.xcdatamodel */;
+			path = Teadent.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DC7407EE1B7942A700063B6B /* Project object */;
+}
